@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="output.css">
+    
 
 </head>
 <body class="bg-gray-100">
@@ -19,15 +20,17 @@
       <a href="#"><img class="p-2" src="https://img.icons8.com/material-outlined/24/null/github.png" alt=""/></a>
       <a href="#"><img class="p-2" src="https://img.icons8.com/material-outlined/24/null/google-plus.png" alt=""/></a>
       </div>
-      <p class=" m-2 text-base text-gray-700">or use your email for registration</p>
+      <p class=" m-2 text-base text-green-700">or use your email for registration</p>
       <div class="flex flex-col ">
       <input class="focus:bg-gray-200 w-64 focus:outline-none text-base  m-2 placeholder-gray-700 py-2 px-2 bg-gray-100" type="text" name="name" id="name" placeholder="Name" required>
 
-      <input class="focus:bg-gray-200 w-64 focus:outline-none text-base m-2 placeholder-gray-700 py-2 px-2 bg-gray-100" type="email" name="email" id="email" placeholder="Email" required>
+      <input class="focus:bg-gray-200 w-64 focus:outline-none text-base  m-2 placeholder-gray-700 py-2 px-2 bg-gray-100" type="email" name="email" id="email" placeholder="Email" required>
 
-      <input class="focus:bg-gray-200 w-64 focus:outline-none text-base m-2 placeholder-gray-700 py-2 px-2 bg-gray-100" type="password" name="password" id="password" placeholder="Password" required>
-      
-      <input class="py-2 px-9 text-white flex justify-center rounded-full bg-green-600 m-2 hover:bg-green-700 active:bg-green-800 " type="button" value="Sign Up">
+      <input class="focus:bg-gray-200 w-64 focus:outline-none text-base  m-2 placeholder-gray-700 py-2 px-2 bg-gray-100" type="password" name="password" id="password" placeholder="Password" required>
+
+      <div><p class="passwordHelp m-2 text-base" style="color:red; display:none">Passwords must have at least <br>8 characters and contain at least <br>contain uppercase letters, lowercase<br> letters, numbers, and symbols.</p></div>
+
+      <input class="submit py-2 px-9 text-white flex justify-center rounded-full bg-green-600 m-2 hover:bg-green-700 active:bg-green-800 " type="button" value="Sign Up">
     </div>
     </form>
   </div>
